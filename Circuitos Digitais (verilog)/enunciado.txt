@@ -1,0 +1,18 @@
+Fazer uma máquina de estados que tenha como saída em sequência os seis dígitos menos significativos da sua matrícula. A máquina tem uma entrada lógica chamada up, de um bit apenas. Quando up=0, a sequência vai diminuindo. Quando up=1, a sequência vai aumentando.
+
+Exemplo: 
+Quando up=0, o cartão 00974146 mostraria a sequência 9, 7, 5, 1, 4, 6, volta para 9, etc...
+Quando up=1, o cartão 00974146 mostraria a sequência 6, 4, 1, 4, 7, 9, volta para o 6, etc...
+
+Atribuir o código interno dos estados com as seguintes regras:
+a) os códigos de estado que terão don´t cares serão os menores números (estado 000 não é usado).
+b) Os maiores números de saída tem os maiores números de estado (9 seria 111).
+c) Se der empate, o digito mais a esquerda tem o maior código de estado (com dois 9 no número de matrícula, o 9 mais a esquerda tem código de estado 111 e o próximo 9 tem código de estado 110).
+
+Exemplo: 00974146:
+9 é 111,
+7 é 110,
+6 é 101,
+4 a esquerda é 100,
+4 a direita é 011,
+1 é 010

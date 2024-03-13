@@ -1,0 +1,20 @@
+// (c) 2023 inPlace Design Automation
+// Descrição : arquivo de pinagem contendo o mapeamento do módulo counter2b para
+//             a placa T (T-board).
+//  MODULE PORT     BOARD COMPONENT
+
+
+    eck         =   clk_1hz;
+    up          =  sw3;
+    eena         =   sw2;
+    es         =   sw1;
+    er         =   sw0;
+    ini        =   sw9;
+// Mapeamento dos bits de saída
+    sq[6]      =   segd0.a_on;
+    sq[5]      =   segd0.b_on;
+    sq[4]      =   segd0.c_on;
+    sq[3]      =   segd0.d_on;
+    sq[2]      =   segd0.e_on;
+    sq[1]      =   segd0.f_on;
+    sq[0]      =   segd0.g_on;
