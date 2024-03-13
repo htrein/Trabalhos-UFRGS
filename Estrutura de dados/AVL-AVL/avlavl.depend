@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1680444322 source:c:\users\trein\desktop\avl-avl\funcoes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	<ctype.h>
+	"headers.h"
+
+1680444291 c:\users\trein\desktop\avl-avl\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	<ctype.h>
+
+1680444290 source:c:\users\trein\desktop\avl-avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	<ctype.h>
+	"headers.h"
+

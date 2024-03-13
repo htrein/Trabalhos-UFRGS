@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1677778406 source:c:\users\trein\desktop\similaridadedados\funcoes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	<ctype.h>
+	"headers.h"
+
+1677797531 source:c:\users\trein\desktop\similaridadedados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	<ctype.h>
+	"headers.h"
+
+1677799491 c:\users\trein\desktop\similaridadedados\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	<ctype.h>
+
+1677799507 source:c:\users\trein\desktop\avl-avl\funcoes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	<ctype.h>
+	"headers.h"
+
+1677799491 c:\users\trein\desktop\avl-avl\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	<ctype.h>
+
